@@ -250,7 +250,7 @@ wrap up report 피드백을 본격적으로 시작하기 앞서 다들 5주간 �
             - TF-IDF : ‘klue/roberta-base’와 ‘monologg/koelectra-base-v3-finetuned-korquad’의 성능이 비슷하였음
             - BM25 : ‘monologg/koelectra-base-v3-finetuned-korquad’의 성능이 가장 우수하였음
         - Dense Retrieval & Sparse Retrieval 비교
-        참고 논문(Dense Passage Retrieval for Open-Domain Question Answering)의 내용을 구현해 보고자 하였지만 본 대회 실험 환경에서는 Sparse Retrieval가 더 나은 성능이 나왔음.
+        참고 논문 ["Dense Passage Retrieval for Open-Domain Question Answering"](https://arxiv.org/pdf/2004.04906.pdf)의 내용을 구현해 보고자 하였지만 본 대회 실험 환경에서는 Sparse Retrieval가 더 나은 성능이 나왔음.
 
 - SOTA 모델
     - Reader Model
@@ -305,7 +305,7 @@ wrap up report 피드백을 본격적으로 시작하기 앞서 다들 5주간 �
         - 비록 성능 향상으로 이루어지진 않았지만, 여러 외부 데이터를 이용한 Augmentation을 하여 실험해보았다.
     - **시도 했으나 잘 되지 않았던 것들**
         - ElasticSearch 모듈화를 시도했으나 잘 되지 않았다.
-        - “Dense Passage Retrieval for Open-Domain Question Answering” 논문 구현을 하였으나 GPU 메모리 한계로 인해 batch size를 늘리지 못해 논문 성능 재현이 되지 않았다.
+        - ["Dense Passage Retrieval for Open-Domain Question Answering"](https://arxiv.org/pdf/2004.04906.pdf) 논문 구현을 하였으나 GPU 메모리 한계로 인해 batch size를 늘리지 못해 논문 성능 재현이 되지 않았다.
     - **아쉬웠던 점들**
         - Reader의 성능을 많이 개선하지 못했다.
     - **프로젝트를 통해 배운 점 또는 시사점**
